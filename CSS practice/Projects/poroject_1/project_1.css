@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Profile Card */
+#basic-profile-card {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: beige;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgb(1, 49, 131);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 15px 10px;
+}
+
+button {
+    background-color: rgb(1, 49, 131);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: rgb(0, 30, 90);
+}
+
+/* Social Media Card */
+#social-media-card {
+    width: 525px;
+    height: 220px;
+    background-color: #1558d6;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#card-title {
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#card-subtitle {
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+li {
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,151 @@
+/* CSS Transitions */
+Q5
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+a:hover{
+    font-size: 30px;
+    transition-property: all;
+
+}
+
+Q1
+button:hover {
+    background-color: rgb(191, 255, 0);
+    transition-duration: 2s;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+}
+
+Q2
+img:hover {
+    height: 300px;
+    width: 300px;
+    border: solid 1px blue;
+    border-radius: 50%;
+    transition-duration: 3s;
+}
+
+Q3
+.card {
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition-duration: 1s;
+}
+Q4
+#para1{
+    color: black
+}
+#para1:hover{
+    color: red;
+    transition-delay: 1.5s;
+}
+
+/* CSS Transforms */
+/* Q5 */
+ .box{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+}
+.box:hover{
+transform: rotate(45deg);
+
+}
+ /* Q7  */
+.img1{
+    height: 100px;
+    
+   
+}
+.img1:hover{
+    scale: 2;
+   
+}
+ /* Q8  */
+.button1{
+    font-size: large;
+    background-color: brown;
+}
+.button1:hover{
+  transform: translate(50px, 20px);
+}
+ /* Q9  */
+.rectangle{
+    height: 100px;
+    width: 200px;
+    background-color: purple;
+}
+.rectangle:hover{
+    transform: rotateX(30deg);
+}
+/* Q10 
+Q11  */
+.box1{
+    height: 100px;
+    width: 100px;
+    
+    animation:box1Animate 3s linear infinite normal ;
+}
+@keyframes box1Animate {
+    from { background-color: red; }
+    to { background-color:blue; }
+    }
+    /* 12   */
+    .ball{
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+        border: 1px solid black;
+        border-radius:  50%; 
+        animation: ballbounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    }
+    @keyframes ballbounce{
+        from { transform: translate3d(0, 0, 0);}
+        to { transform: translate3d(0, 200px, 0);}
+    } 
+     /* Q13 */
+     .loader{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+       
+       border: 30px solid rgb(211, 169, 169);
+       border-top: 30px solid rebeccapurple;
+       animation : loaderAnimate 2s ease-in 0s infinite normal;
+
+     }
+     @keyframes loaderAnimate{
+        from{
+           transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+     }

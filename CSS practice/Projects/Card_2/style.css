@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    min-height: 900px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 30px;
+   
+   
+}
+.card img{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.card-item {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+.card-item p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.card-plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color:rgba(127, 255, 212, 0.482);
+    border-radius: 10px;
+    padding-right: 20px;
+}
+.left-item{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.amount-box #price{
+   font-weight: bold;
+   color: black;
+ 
+}
+
+#payment-button{
+    width: 80%;
+    height: 8%;
+    background-color: rgb(2, 2, 91);
+    color: wheat;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.right-item a{
+    text-decoration: none;
+    color: rgb(5, 5, 62) ;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cancel-order a{
+    text-decoration: none;
+    color: rgb(5, 5, 62) ;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

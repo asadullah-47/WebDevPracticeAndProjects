@@ -1,0 +1,44 @@
+.container {
+    height: 60px;
+    background-color: rgb(255, 158, 12);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li,
+a {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+
+}
+
+.outer {
+    display: flex;
+    height: 500px;
+    width: 700px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner1 {
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 1s ease-in;
+
+}
+  .box:hover{
+    transform:rotate(400deg);
+    border-radius: 50%;
+  }

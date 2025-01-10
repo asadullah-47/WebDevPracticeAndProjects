@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    border: 2px solid black;
+    position: fixed;
+}
+
+#box1 {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(255, 1, 196);
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    animation: rightanimate 5s linear infinite alternate;
+}
+
+@keyframes rightanimate {
+    from {
+        top: 0px;
+        left: 0px;
+    }
+    to {
+        top: 0px;
+        left: 75vw;
+    }
+}
+
+#box2 {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(255, 1, 196);
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    animation: leftanimate 5s ease-in infinite alternate;
+}
+
+@keyframes leftanimate {
+    from {
+        top: 80vh;
+        left: 70vw;
+    }
+    to {
+        top: 80vh;
+        left: 0;
+    }
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(3, 255, 8);
+    border-radius: 50%;
+    position: relative;
+    animation: circleanimate 6s ease-in-out infinite;
+}
+
+@keyframes circleanimate {
+    /* Start at the top-left corner */
+    0% {
+        top: 5vh;
+        left: 5vw;
+    }
+
+    /* Move to the top-right corner */
+    25% {
+        top: 10vh;
+        left: 90vw;
+    }
+
+    /* Simulate bounce above #box2 */
+    50% {
+        top: 70vh; /* Slightly above #box2 */
+        left: 60vw;
+    }
+
+    /* Move back towards the bottom-left */
+    75% {
+        top: 20vh;
+        left: 10vw;
+    }
+
+    /* Return to the starting point */
+    100% {
+        top: 5vh;
+        left: 5vw;
+    }
+}

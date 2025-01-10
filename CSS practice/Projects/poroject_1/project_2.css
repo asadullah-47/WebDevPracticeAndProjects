@@ -1,0 +1,28 @@
+nav{
+    background-color:#d6ffff;
+    height: 60px;
+    color: rgb(6, 3, 3);
+    
+
+}
+ul{
+    display: inline-block;
+    
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    display: inline-block;
+    
+}
+section{
+    height: 100vh;
+    background-image: url(/PraticeSet/nature.jpg);
+    background-size: cover;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}

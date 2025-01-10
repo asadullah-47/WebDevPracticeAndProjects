@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border: 1px solid rebeccapurple;
+    border-radius: 25px;
+    box-shadow: none;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+} 
+h1{
+    font-size: 30px;
+}  
+.card:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
