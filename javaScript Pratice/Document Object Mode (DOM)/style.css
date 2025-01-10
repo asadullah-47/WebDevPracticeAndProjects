@@ -1,0 +1,46 @@
+/* .heading{
+    color: red;
+    font-size: 23px;;
+} */
+
+
+
+#box{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 34px;
+    padding: 20px;
+} 
+
+/* problem 2 */
+/* .Problem2{
+    color: red;;
+}
+
+.newProblem{
+    background-color: pink;
+}
+ */
+
+/* Event object in js */
+/* .box2{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+
+} */
+
+
+/* Chnge mode */
+.dark {
+    background-color: rgb(17, 17, 46);
+    color: white;
+}
+.light {
+    background-color: white;
+    color: black;
+}

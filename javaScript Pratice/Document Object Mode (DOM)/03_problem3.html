@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <style>
+        .to-do-list{
+            height: 300px;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+         justify-content: start;
+         align-items: center;
+            gap: 10px;
+            background-color: aqua;
+
+        }
+        .to-do-list h1{
+            text-align: center;
+            color: brown;
+            text-transform: uppercase;
+
+        }
+        #taskInput{
+            width: 80%;
+            padding: 5px;
+            border: 2px solid rgb(80, 42, 42);
+            border-radius: 20px;
+
+        }
+        #addTaskBtn{
+            width: 100px;
+            padding: 5px;
+            border: 2px solid rgb(80, 42, 42);
+            border-radius: 20px;
+
+        }
+        #taskList{
+           color: black;
+           font-weight: 900;
+           font-size: large;
+        }
+       
+    </style>
+</head>
+<body>
+    <section class="to-do-list">
+        <h1>To Do List</h1>
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <button id="addTaskBtn">Add task</button>
+        <ol id="taskList"></ol>
+      </section>
+    
+    <script src="/Document Object Mode (DOM)/03_problem3.js"></script>
+</body>
+</html>
