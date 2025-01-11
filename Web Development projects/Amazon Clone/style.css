@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #004536;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 200px;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+
+.border {
+    border: 2px transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/** Address Bar**/
+.add-p1 {
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.add-p2 {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/**Search Sections**/
+.nav-search {
+    display: flex;
+    justify-content: space-around;
+    width: 798px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #e6e6e6;
+    width: 50px;
+    /* padding-left: 5px; */
+    border: 1px solid;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size: 1.3rem;
+   background-color: #A9176F;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   font-weight: bolder;
+
+}
+.nav-search:hover{
+    border:2px solid #A9176F;
+    
+}
+/* * Sign In* */
+span{
+font-size:0.78rem ;
+}
+.nav-p2{
+font-size: 0.85rem;
+font-weight: 700;
+}
+.nav-cart i{
+    font-size: 40px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+/**Panel*/
+.panel{
+    height: 40px;
+    background-color: #004536d4;
+
+}
