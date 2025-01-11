@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website book</title>
+</head>
+
+<body>
+    <!-- Create an HTML form for a travel website to bokk a vacation -->
+    <h1>Travel agencey form</h1>
+    <form action="pho">
+        <div>
+            <h3>Treveler Information</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <br>
+            <label for="email">Email </label>
+            <input type="email" id="email">
+            <br>
+            <label for="phone_number">Phone Number</label>
+            <input type="tel" id="phone_number">
+            <br>
+        </div>
+        <div>
+            <h2>Destination Details</h2>
+            <label for="Prefered_Destination">Prefered Destination </label>
+            <select id="Prefered_Destination" required>
+                <option value="" disabled selected>Select Prefered Destination</option>
+                <option value="chitralinn">Chitral Inn</option>
+                <option value="chitralinn">PTDC Chitral</option>
+                <option value="chitralinn">City Resturent</option>
+                <option value="chitralinn">Chitral Town</option>
+            </select>
+        </div>
+        <div>
+            <label for="DepartureCity">Departure City</label>
+            <select id="DepartureCity">
+                <option value="" disabled selected>Select Departure City</option>
+                <option value="chitralinn">Chitral Inn</option>
+                <option value="chitrl Town">Chitral Town</option>
+                <option value="Ayn">Ayn</option>
+                <option value="other">other</option>
+
+            </select>
+        </div>
+        <div>
+            <h2>Travel Dates</h2>
+            <label for="DepartureDate">Departure Date</label>
+            <input type="date" id="DepartureDate">
+        </div>
+        <div>
+
+            <label for="ReturneDate">DReturn Date</label>
+            <input type="date" id="ReturneDate">
+        </div>
+        <div>
+            <h2>Travel Preferences</h2>
+            <label for="NumberofTravelers">Number of Travelers</label>
+            <input type="number" id="NumberofTravelers" placeholder="NumberofTravelers">
+        </div>
+        <div>
+
+            <label for="ClassofTravel">Class of Travel</label>
+            <select id="ClassofTravel">
+                <option value="" disabled selected>Select Class</option>
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="firstclass">First Class</option>
+            </select>
+        </div>
+        <div>
+            <label for="Accommodation">Accommodation</label>
+            <select id="Accommodation">
+                <option value="" disabled selected>Select Accommodation</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Resturent">Resturent</option>
+                <option value="Apartments">Apartments</option>
+                <option value="None">None</option>
+            </select>
+        </div>
+        <div>
+            <h2>Payment Information </h2>
+            <label for="Payment">Payment Method</label>
+            <select id="Payment">
+<option value=""disabled selected>Select Payments</option>
+<option value="Creditcard">Creditcard</option>
+<option value="Paypal">Paypal</option>
+<option value="BankTranfser">Bank Tranfser</option>
+            </select>
+        </div>
+        <div>
+            <label for="BookNow">Book Now</label>
+            <input type="submit" id="BookNow ">
+        </div>
+    </form>
+</body>
+
+</html>
